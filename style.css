@@ -1,0 +1,204 @@
+* {
+    font-family: Candara;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+/* home_page */
+.home-page {
+    background-image: url("images/bigfood.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.recommendation {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 150px 10px 10px 500px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-2 {
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: black;
+    border-radius: 50px;
+    transition: ease-out 0.3s;
+    font-size: 2.9rem;
+    font-weight: bold;
+    outline: none;
+    border: 3px solid black;
+    position: center;
+    z-index: 1;
+    background-color: white;
+    margin: 75px 10px 10px 500px;
+
+}
+
+.btn-2:hover {
+    color: green;
+    cursor: pointer;
+}
+
+/* help_choose */
+
+.help-choose {
+    background-image: url("images/cutting-board.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#least {
+    font-size: 2.7rem;
+    padding: 110px 0px 0px 170px;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.columns {
+    display: flex;
+}
+
+.home-symbol {
+    width: 75px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 0;
+    background: 30px white;
+    border: 5px solid black;
+}
+
+#left-pic {
+    width: 300px;
+    height: 250px;
+    margin-left: 185px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border: 10px solid white;
+    cursor: pointer;
+}
+
+#right-pic {
+    width: 300px;
+    height: 250px;
+    margin-right: 100px;
+    margin-top: 40px;
+    border: 10px solid white;
+    cursor: pointer;
+}
+
+#countdown {
+    background: white;
+    width: 110px;
+    height: 110px;
+    vertical-align: middle;
+    line-height: 110px;
+    border-radius: 50%;
+    border: 5px solid black;
+    text-align: center;
+    background-color: white;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* recommendation */
+
+#we-think {
+    font-size: 3.1rem;
+    padding: 60px 0px 0px 220px;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#food-rec {
+    font-size: 2.2rem;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 4px;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
+}
+
+.rec-columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#food-rec-pic {
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#restaurant-link {
+    font-size: 2.2rem;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 4px;
+    background-color: white;
+    width: 250px;
+    margin-left: 200px;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
+}
+
+#recipe-link {
+    font-size: 2.2rem;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 4px;
+    background-color: white;
+    width: 250px;
+    margin-right: 200px;
+    color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
