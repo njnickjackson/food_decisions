@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+img {
+    object-fit: cover;
+}
+
 /* home_page */
 .home-page {
     background-image: url("images/bigfood.jpeg");
