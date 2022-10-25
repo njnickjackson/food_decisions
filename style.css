@@ -67,7 +67,9 @@ img {
 
 #least {
     font-size: 2.7rem;
-    padding: 110px 0px 0px 170px;
+    text-align: center;
+    margin-right: 0.3em;
+    margin-top: 3em;
     color: black;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
@@ -75,6 +77,12 @@ img {
 
 .columns {
     display: flex;
+    justify-content: center;
+    position: fixed;
+    margin: 2em auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .home-symbol {
@@ -89,9 +97,6 @@ img {
 #left-pic {
     width: 300px;
     height: 250px;
-    margin-left: 185px;
-    margin-top: 40px;
-    margin-right: 20px;
     border: 10px solid white;
     cursor: pointer;
 }
@@ -99,10 +104,9 @@ img {
 #right-pic {
     width: 300px;
     height: 250px;
-    margin-right: 100px;
-    margin-top: 40px;
     border: 10px solid white;
     cursor: pointer;
+    margin-right: 1em;
 }
 
 #countdown {
@@ -116,8 +120,7 @@ img {
     text-align: center;
     background-color: white;
     font-size: 70px;
-    margin-top: 100px;
-    margin-right: 20px;
+    margin: 0.75em 0.3em;
     font-family: Arial, Helvetica, sans-serif
 }
 
